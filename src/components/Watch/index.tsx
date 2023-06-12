@@ -42,25 +42,25 @@ export default function Watch({ date }: Props) {
   });
 
   return (
-    <div className="flex items-center gap-3 uppercase">
-      <div className="px-12 py-8 text-center bg-white rounded">
-        <div className="text-lg text-white-green">Dias</div>
-        <span className="text-4xl text-white-green">{timeLeft["days"]}</span>
+    <div className="flex items-center gap-1 uppercase lg:gap-3">
+      <div className="px-2 py-2 text-center bg-white rounded lg:py-8 lg:px-12">
+        <div className="lg:text-lg text-white-green">Dias</div>
+        <span className="text-xl text-white-green">{timeLeft["days"]}</span>
       </div>
       <div className="text-4xl">:</div>
-      <div className="px-12 py-8 text-center bg-white rounded">
-        <div className="text-lg text-white-green">Horas</div>
-        <span className="text-4xl text-white-green">{timeLeft["hours"]}</span>
+      <div className="px-2 py-2 text-center bg-white rounded lg:py-8 lg:px-12">
+        <div className="lg:text-lg text-white-green">Horas</div>
+        <span className="text-xl text-white-green">{timeLeft["hours"]}</span>
       </div>
       <div className="text-4xl">:</div>
-      <div className="px-12 py-8 text-center bg-white rounded">
-        <div className="text-lg text-white-green">Minutos</div>
-        <span className="text-4xl text-white-green">{timeLeft["minutes"]}</span>
+      <div className="px-2 py-2 text-center bg-white rounded lg:py-8 lg:px-12">
+        <div className="lg:text-lg text-white-green">Minutos</div>
+        <span className="text-xl text-white-green">{timeLeft["minutes"]}</span>
       </div>
-      <div className="text-4xl">:</div>
-      <div className="px-12 py-8 text-center bg-white rounded">
-        <div className="text-lg text-white-green">Segundos</div>
-        <span className="text-4xl text-white-green">{timeLeft["seconds"]}</span>
+      <div className="text-lg lg:text-4xl">:</div>
+      <div className="px-2 py-2 text-center bg-white rounded lg:py-8 lg:px-12">
+        <div className="lg:text-lg text-white-green">Segundos</div>
+        <span className="text-xl text-white-green">{timeLeft["seconds"]}</span>
       </div>
     </div>
   );
